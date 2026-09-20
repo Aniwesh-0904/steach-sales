@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>S-Tech Sales</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav class="navbar">
+  <div class="logo-wrap">
+    <div class="logo">S-TECH<span> SALES</span></div>
+    <div class="dealer-tag">Authorized Dealer for KTR Coupling (India) Pvt. Ltd.</div>
+  </div>
+  <button class="menu-toggle" type="button" aria-label="Open navigation" aria-expanded="false" aria-controls="site-navigation">
+    <span></span>
+    <span></span>
+    <span></span>
+  </button>
+  <ul class="nav-links" id="site-navigation">
+    <li><a href="#home">Home</a></li>
+    <li class="has-dropdown">
+      <a href="#products" class="dropdown-toggle">Products <span class="caret"></span></a>
+      <div class="dropdown">
+        <a href="#flexible">Flexible couplings</a>
+        <a href="#rigid">Rigid couplings</a>
+        <a href="#gear">Gear couplings</a>
+        <a href="#fluid">Fluid couplings</a>
+        <a href="#custom">Custom / OEM parts</a>
+      </div>
+    </li>
+    <li><a href="#gallery" id="galleryTrigger">Gallery</a></li>
+  </ul>
+  <a href="#contact" class="contact-btn">Contact</a>
+</nav>
+
+<!-- ---------- HERO (text left, hexagon cluster anchored to text lines on the right) ---------- -->
+<section class="hero" id="home">
+  <div class="hero-inner">
+    <div class="hero-text">
+      <p class="hero-tag">Authorized Dealer for KTR Coupling (India) Pvt. Ltd.</p>
+      <h1 class="hero-heading">Precision coupling solutions<br>for industrial excellence</h1>
+      <div class="hero-rule"></div>
+      <p class="hero-certs">ISO 9001:2015 Certified <span>•</span> 100% Genuine Products <span>•</span> Premium Quality</p>
+      <a href="#products" class="hero-cta">View KTR Coupling Range</a>
+    </div>
+
+    <!-- fades in as the hexes assemble (opacity driven by scroll progress in script.js) -->
+    <h3 class="hex-cluster-heading" id="hexClusterHeading">Our Best Selling Products</h3>
+
+    <div class="hero-hex-cluster" id="products">
+      <div class="hex-item reveal"
+         style="--delay:0s; --top:150px; --left:38%;"
+         data-start-top="150" data-start-left="38"
+           data-end-top="780" data-end-left="0">
+        <div class="hex-card"><span class="hex-card-label">Flexible Jaw Couplings</span></div>
+        <div class="hex-photo" data-img="jawcoupling.jpeg"></div>
+      </div>
+
+      <div class="hex-item reveal"
+           style="--delay:0.08s; --top:650px; --left:14.1%;"
+           data-start-top="650" data-start-left="14.1"
+           data-end-top="780" data-end-left="20.2">
+        <div class="hex-card"><span class="hex-card-label">Lamina/Radex-N/Disk Couplings</span></div>
+        <div class="hex-photo" data-img="lamina.jpeg"></div>
+      </div>
+
+      <div class="hex-item reveal"
+         style="--delay:0.16s; --top:150px; --left:62%;"
+         data-start-top="150" data-start-left="62"
+           data-end-top="780" data-end-left="40.4">
+        <div class="hex-card"><span class="hex-card-label">Metal Bellow-type Couplings</span></div>
+        <div class="hex-photo" data-img="metalbellow.jpeg"></div>
+      </div>
+
+      <div class="hex-item reveal"
+         style="--delay:0.24s; --top:650px; --left:28.3%;"
+         data-start-top="650" data-start-left="28.3"
+           data-end-top="780" data-end-left="60.6">
+        <div class="hex-card"><span class="hex-card-label">Encoder Coupling/Flexible Coupling</span></div>
+        <div class="hex-photo" data-img="encoder.jpeg"></div>
+      </div>
+
+      <div class="hex-item reveal"
+         style="--delay:0.32s; --top:650px; --left:14.1%;"
+         data-start-top="650" data-start-left="14.1"
+           data-end-top="780" data-end-left="80.8">
+        <div class="hex-card"><span class="hex-card-label">Timing Pulley</span></div>
+        <div class="hex-photo" data-img="timingpulley.jpeg"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="ember-field"></div>
+
+<!-- ---------- ABOUT ---------- -->
+<section class="about" id="about">
+  <div class="about-inner">
+    <div class="about-text">
+      <p class="section-tag">About Us</p>
+      <h2 class="about-heading">Who We Are</h2>
+      <div class="hero-rule"></div>
+
+      <p>We are pleased to introduce ourselves as <strong>S-Tech Sales</strong>, an Authorized Dealer of KTR Coupling (India) Pvt. Ltd., one of the leading manufacturers of high-quality power transmission products and industrial coupling solutions.</p>
+
+      <p>Based in Dattanagar, Katraj, Pune, S-Tech Sales is committed to delivering reliable industrial products, precision engineering solutions, and excellent customer support to various industries across pan India.</p>
+
+      <p>With a strong focus on quality, technical expertise, and customer satisfaction, we provide a complete range of KTR Couplings and Power Transmission Products suitable for industrial automation, CNC machinery, heavy engineering, manufacturing plants, and process industries.</p>
+    </div>
+
+    <div class="about-card">
+      <div class="about-card-row">
+        <span class="about-card-label">Address</span>
+        <span class="about-card-value">Dattanagar, Katraj, Pune – 411046</span>
+      </div>
+      <div class="about-card-row">
+        <span class="about-card-label">Email</span>
+        <span class="about-card-value"><a href="mailto:info@stechsales.com">info@stechsales.com</a></span>
+      </div>
+      <div class="about-card-row">
+        <span class="about-card-label">Phone</span>
+        <span class="about-card-value">
+          <a href="tel:+918208269162">+91 8208269162</a> /
+          <a href="tel:+918055599932">+91 8055599932</a>
+        </span>
+      </div>
+      <div class="about-card-row">
+        <span class="about-card-label">GSTIN</span>
+        <span class="about-card-value">27BPDPPJ5776D1ZS</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ---------- WHY CHOOSE US ---------- -->
+<section class="why-us" id="why-us">
+  <p class="section-tag center">Why Choose Us</p>
+  <h2 class="about-heading center light">What Sets Us Apart</h2>
+  <div class="hero-rule center"></div>
+
+  <div class="why-grid">
+    <div class="why-card">
+      <span class="why-check">✓</span>
+      <span class="why-label">ISO 9001:2015 Certified</span>
+    </div>
+    <div class="why-card">
+      <span class="why-check">✓</span>
+      <span class="why-label">Genuine KTR Products</span>
+    </div>
+    <div class="why-card">
+      <span class="why-check">✓</span>
+      <span class="why-label">Competitive Pricing</span>
+    </div>
+    <div class="why-card">
+      <span class="why-check">✓</span>
+      <span class="why-label">Prompt Technical Support</span>
+    </div>
+    <div class="why-card">
+      <span class="why-check">✓</span>
+      <span class="why-label">Timely Delivery</span>
+    </div>
+    <div class="why-card">
+      <span class="why-check">✓</span>
+      <span class="why-label">Trusted Industrial Partner</span>
+    </div>
+  </div>
+</section>
+
+<!-- ---------- OUR PRODUCTS ---------- -->
+<section class="products" id="products-grid">
+  <p class="section-tag center">Our Products</p>
+  <h2 class="about-heading center">Explore our comprehensive range of industrial coupling solutions and precision components</h2>
+  <div class="hero-rule center"></div>
+
+  <div class="products-grid">
+    <div class="product-card">
+      <div class="product-photo" data-img="ftr.avif"></div>
+      <h3 class="product-title">KTR ROTEX  - FLEXIBLE COUPLINGS</h3>
+      <p class="product-desc">Absorb misalignment and shock loads while transmitting torque smoothly between shafts.</p>
+    </div>
+    <div class="product-card">
+      <div class="product-photo" data-img="rotexgs.avif"></div>
+      <h3 class="product-title">KTR SERVO ROTEX GS COUPLINGS</h3>
+      <p class="product-desc">Precision-machined for perfectly aligned shafts needing a solid, zero-backlash connection.</p>
+    </div>
+    <div class="product-card">
+      <div class="product-photo" data-img="gearcoupling.avif"></div>
+      <h3 class="product-title">KTR BOWEX & GEAREX - GEAR COUPLINGS</h3>
+      <p class="product-desc">High-torque power transmission for heavy-duty industrial and process machinery.</p>
+    </div>
+    <div class="product-card">
+      <div class="product-photo" data-img="metalbellowc.png"></div>
+      <h3 class="product-title">KTR TOOLFLEX - METAL BELLOW COUPLINGS</h3>
+      <p class="product-desc">Smooth, controlled startup and overload protection for demanding drive systems.</p>
+    </div>
+    <div class="product-card">
+      <div class="product-photo" data-img="ktrspare.avif"></div>
+      <h3 class="product-title">KTR SPARE SPIDER FOR KTR ROTEX GS</h3>
+      <p class="product-desc">Tailored coupling and power transmission components engineered to your exact specs.</p>
+    </div>
+    <div class="product-card">
+      <div class="product-photo" data-img="gear.png"></div>
+      <h3 class="product-title">RACK, PINION, GEAR, PULLEY & SPROCKET</h3>
+      <p class="product-desc">Tailored coupling and power transmission components engineered to your exact specs.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ---------- OUR CLIENTS ---------- -->
+<section class="clients-section" id="clients">
+  <p class="section-eyebrow">Trusted by</p>
+  <h2 class="clients-heading">Companies that run on our couplings</h2>
+
+  <div class="clients-marquee">
+    <div class="clients-track">
+      <div class="client-logo"><img src="images (2).png" alt="Client 1 logo"></div>
+      <div class="client-logo"><img src="images (3).png" alt="Client 2 logo"></div>
+      <div class="client-logo"><img src="images.png" alt="Client 3 logo"></div>
+      <div class="client-logo"><img src="images (1).png" alt="Client 4 logo"></div>
+      <div class="client-logo"><img src="images (4).png" alt="Client 5 logo"></div>
+      <div class="client-logo"><img src="images (5).png" alt="Client 6 logo"></div>
+      <div class="client-logo"><img src="images (6).png" alt="Client 7 logo"></div>
+      <div class="client-logo"><img src="images (7).png" alt="Client 8 logo"></div>
+      <!-- duplicate set right after, so the loop has no visible seam -->
+      <div class="client-logo" aria-hidden="true"><img src="images (2).png" alt=""></div>
+      <div class="client-logo" aria-hidden="true"><img src="images (3).png" alt=""></div>
+      <div class="client-logo" aria-hidden="true"><img src="images.png" alt=""></div>
+      <div class="client-logo" aria-hidden="true"><img src="images (1).png" alt=""></div>
+      <div class="client-logo" aria-hidden="true"><img src="images (4).png" alt=""></div>
+      <div class="client-logo" aria-hidden="true"><img src="images (5).png" alt=""></div>
+      <div class="client-logo" aria-hidden="true"><img src="images (6).png" alt=""></div>
+      <div class="client-logo" aria-hidden="true"><img src="images (7).png" alt=""></div>
+    </div>
+  </div>
+</section>
+
+<!-- ---------- CONTACT US ---------- -->
+<section class="contact-section" id="contact">
+  <p class="section-eyebrow">Get in touch</p>
+  <h2 class="contact-heading">Contact Us</h2>
+  <p class="contact-subheading">Reach out to us for inquiries, quotes, or technical support</p>
+
+  <div class="contact-grid">
+
+    <!-- Form -->
+    <div class="contact-form-card">
+      <h3 class="contact-card-title">Send us a message</h3>
+
+      <form class="contact-form" id="contactForm">
+        <div class="form-row">
+          <label for="cf-name">Name <span class="req">*</span></label>
+          <input type="text" id="cf-name" name="name" required>
+        </div>
+
+        <div class="form-row">
+          <label for="cf-email">Email <span class="req">*</span></label>
+          <input type="email" id="cf-email" name="email" required>
+        </div>
+
+        <div class="form-row">
+          <label for="cf-phone">Phone <span class="req">*</span></label>
+          <input type="tel" id="cf-phone" name="phone" required>
+        </div>
+
+        <div class="form-row">
+          <label for="cf-subject">Subject <span class="req">*</span></label>
+          <select id="cf-subject" name="subject" required>
+            <option value="" disabled selected>Select a subject</option>
+            <option value="General Inquiry">General Inquiry</option>
+            <option value="Partnership">Partnership</option>
+            <option value="Technical Support">Technical Support</option>
+            <option value="Feedback">Feedback</option>
+            <option value="Other">Other</option>
+          </select>
+        </div>
+
+        <div class="form-row">
+          <label for="cf-message">Message <span class="req">*</span></label>
+          <textarea id="cf-message" name="message" rows="5" required></textarea>
+        </div>
+
+        <button type="submit" class="contact-submit-btn">Send Message</button>
+        <p class="contact-form-note" id="contactFormNote" aria-live="polite"></p>
+      </form>
+    </div>
+
+    <!-- Info -->
+    <div class="contact-info">
+      <div class="contact-info-block">
+        <h3 class="contact-card-title">Our Location</h3>
+        <p>
+          Dattanager Shivanjali lane no 2<br>
+          Katraj, Pune - 411046<br>
+          Maharashtra, India
+        </p>
+
+        <div class="contact-map">
+          <iframe
+            src="https://www.google.com/maps?q=Dattanagar,+Katraj,+Pune+-+411046&output=embed"
+            width="100%"
+            height="220"
+            style="border:0;"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            title="S-Tech Sales location map">
+          </iframe>
+        </div>
+
+        <a href="https://maps.app.goo.gl/zd8EKxBx5xFZyi6y5" target="_blank" rel="noopener" class="map-link">Open in Google Maps</a>
+      </div>
+
+      <div class="contact-info-block">
+        <h3 class="contact-card-title">Contact Information</h3>
+        <p>
+          <a href="mailto:info@stechsales.com">info@stechsales.com</a><br>
+          <a href="tel:+918208269162">+91 8208269162</a><br>
+          <a href="tel:+918055599932">+91 8055599932</a>
+        </p>
+      </div>
+
+      <div class="contact-info-block">
+        <h3 class="contact-card-title">Business Hours</h3>
+        <p>
+          Monday - Saturday: 9:00 AM - 6:00 PM<br>
+          Sunday: Closed
+        </p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="footer-grid">
+
+    <div class="footer-brand">
+      <div class="footer-logo">S-TECH<span> SALES</span></div>
+      <p class="footer-tagline">Your trusted partner for precision coupling solutions and industrial components.</p>
+      <p class="footer-subtagline">Coupling Solutions &amp; Precision Job Work</p>
+    </div>
+
+    <div class="footer-col">
+      <h4 class="footer-col-title">Quick Links</h4>
+      <ul class="footer-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#products-grid">Products</a></li>
+        <li><a href="#clients">Clients</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-col">
+      <h4 class="footer-col-title">Our Products</h4>
+      <ul class="footer-links">
+        <li>Encoder Couplings</li>
+        <li>Clamping/Locking Assemblies</li>
+        <li>Timing Pulleys</li>
+        <li>Steel Lamina Couplings</li>
+        <li>Flexible Couplings</li>
+        <li>KTR Spiders / Sleeves / Ring / Lamina</li>
+      </ul>
+    </div>
+
+    <div class="footer-col">
+      <h4 class="footer-col-title">Contact Us</h4>
+      <ul class="footer-links">
+        <li><a href="#contact">Dattanagar, Katraj, Pune &ndash; 411046</a></li>
+        <li><a href="mailto:info@stechsales.com">info@stechsales.com</a></li>
+        <li><a href="tel:+918208269162">+91 8208269162</a></li>
+        <li><a href="tel:+918055599932">+91 8055599932</a></li>
+      </ul>
+    </div>
+
+  </div>
+
+  <div class="footer-bottom">
+    <p>&copy; 2026 S-Tech Sales. All Rights Reserved.</p>
+  </div>
+</footer>
+
+<!-- ---------- FLOATING ACTION BUTTONS ---------- -->
+<a href="https://wa.me/918208269162" target="_blank" rel="noopener" class="float-btn float-whatsapp" aria-label="Chat with us on WhatsApp">
+  <span class="float-ping"></span>
+  <svg viewBox="0 0 32 32" width="28" height="28" fill="currentColor" aria-hidden="true">
+    <path d="M16.02 3C9.4 3 4 8.4 4 15.02c0 2.2.58 4.27 1.6 6.06L4 29l8.1-1.56a11.9 11.9 0 0 0 3.92.66C22.64 28.1 28 22.7 28 16.06 28 9.44 22.64 3 16.02 3zm0 21.68c-1.34 0-2.63-.28-3.8-.8l-.27-.13-4.8.93.94-4.68-.16-.28a9.6 9.6 0 0 1-1.5-5.1c0-5.32 4.33-9.65 9.66-9.65 5.32 0 9.65 4.33 9.65 9.65 0 5.33-4.33 10.06-9.72 10.06zm5.3-7.24c-.29-.14-1.71-.84-1.97-.94-.27-.1-.46-.14-.65.14-.2.29-.75.94-.92 1.13-.17.2-.34.22-.63.08-.29-.15-1.22-.45-2.32-1.44-.86-.77-1.44-1.71-1.6-2-.17-.29-.02-.44.13-.58.13-.13.29-.34.43-.5.15-.17.2-.29.29-.48.1-.2.05-.36-.02-.5-.08-.14-.65-1.58-.9-2.16-.24-.57-.48-.5-.65-.5h-.56c-.2 0-.5.07-.77.36-.26.29-1 .98-1 2.4 0 1.4 1.03 2.77 1.17 2.96.15.2 2.03 3.1 4.92 4.35.69.3 1.22.48 1.64.61.69.22 1.32.19 1.81.12.55-.08 1.71-.7 1.95-1.37.24-.68.24-1.26.17-1.38-.07-.13-.26-.2-.55-.34z"/>
+  </svg>
+</a>
+
+<a href="assets/stech-sales-brochure.pdf" download class="float-btn float-brochure" aria-label="Download our brochure">
+  <span class="float-ping float-ping-amber"></span>
+  <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+    <path d="M12 3v12"/>
+    <path d="M7 10l5 5 5-5"/>
+    <path d="M5 21h14"/>
+  </svg>
+  <span class="float-brochure-label">Brochure</span>
+</a>
+
+<!-- ---------- GALLERY MODAL ---------- -->
+<div class="gallery-modal" id="galleryModal">
+  <div class="gallery-modal-inner">
+    <button class="gallery-close" id="galleryClose" aria-label="Close gallery">&times;</button>
+    <h2 class="gallery-modal-title">Product Gallery</h2>
+
+    <div class="gallery-grid">
+      <div class="gallery-item">
+        <div class="gallery-img" style="background-image:url('jawcoupling.jpeg')"></div>
+        <p class="gallery-name">Flexible Jaw Couplings</p>
+      </div>
+      <div class="gallery-item">
+        <div class="gallery-img" style="background-image:url('lamina.jpeg')"></div>
+        <p class="gallery-name">Lamina/Radex-N/Disk Couplings</p>
+      </div>
+      <div class="gallery-item">
+        <div class="gallery-img" style="background-image:url('metalbellow.jpeg')"></div>
+        <p class="gallery-name">Metal Bellow-type Couplings</p>
+      </div>
+      <div class="gallery-item">
+        <div class="gallery-img" style="background-image:url('encoder.jpeg')"></div>
+        <p class="gallery-name">Encoder Coupling/Flexible Coupling</p>
+      </div>
+      <div class="gallery-item">
+        <div class="gallery-img" style="background-image:url('timingpulley.jpeg')"></div>
+        <p class="gallery-name">Timing Pulley</p>
+      </div>
+      <div class="gallery-item">
+        <div class="gallery-img" style="background-image:url('ftr.avif')"></div>
+        <p class="gallery-name">KTR ROTEX - Flexible Couplings</p>
+      </div>
+      <div class="gallery-item">
+        <div class="gallery-img" style="background-image:url('rotexgs.avif')"></div>
+        <p class="gallery-name">KTR SERVO ROTEX GS Couplings</p>
+      </div>
+      <div class="gallery-item">
+        <div class="gallery-img" style="background-image:url('gearcoupling.avif')"></div>
+        <p class="gallery-name">KTR BOWEX &amp; GEAREX - Gear Couplings</p>
+      </div>
+      <div class="gallery-item">
+        <div class="gallery-img" style="background-image:url('metalbellowc.png')"></div>
+        <p class="gallery-name">KTR TOOLFLEX - Metal Bellow Couplings</p>
+      </div>
+      <div class="gallery-item">
+        <div class="gallery-img" style="background-image:url('ktrspare.avif')"></div>
+        <p class="gallery-name">KTR Spare Spider for ROTEX GS</p>
+      </div>
+      <div class="gallery-item">
+        <div class="gallery-img" style="background-image:url('gear.png')"></div>
+        <p class="gallery-name">Rack, Pinion, Gear, Pulley &amp; Sprocket</p>
+      </div>
+    </div>
+
+    <div class="gallery-cta">
+      <p class="gallery-cta-text">You really like these images? Want to buy? Contact us!</p>
+      <div class="gallery-cta-details">
+        <a href="mailto:info@stechsales.com">info@stechsales.com</a>
+        <a href="tel:+918208269162">+91 8208269162</a>
+        <a href="tel:+918055599932">+91 8055599932</a>
+      </div>
+      <a href="#contact" class="gallery-cta-btn" id="galleryContactBtn">Contact Us</a>
+    </div>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
