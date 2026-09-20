@@ -7,7 +7,7 @@
   --off-white:#F7F4EF;
 }
 *{margin:0;padding:0;box-sizing:border-box;}
-html{overflow-x:hidden;}
+html{overflow-x:hidden;scroll-behavior:smooth;}
 body{font-family:'Roboto',sans-serif;background:var(--off-white);overflow-x:hidden;}
 
 /* ---------- NAVBAR ---------- */
@@ -486,6 +486,7 @@ body{font-family:'Roboto',sans-serif;background:var(--off-white);overflow-x:hidd
   background:var(--off-white);
   padding:100px 48px;
   text-align:center;
+  scroll-margin-top:20px;
 }
 
 .products .about-heading{
