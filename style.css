@@ -716,6 +716,15 @@ body{font-family:'Roboto',sans-serif;background:var(--off-white);overflow-x:hidd
   gap:8px;
 }
 
+.form-honey{
+  position:absolute;
+  left:-9999px;
+  width:1px;
+  height:1px;
+  opacity:0;
+  pointer-events:none;
+}
+
 .contact-form label{
   font-family:'Roboto',sans-serif;
   font-weight:500;
@@ -772,6 +781,12 @@ body{font-family:'Roboto',sans-serif;background:var(--off-white);overflow-x:hidd
 .contact-submit-btn:hover{
   background:var(--amber);
   transform:translateY(-2px);
+}
+
+.contact-submit-btn:disabled{
+  cursor:wait;
+  opacity:0.75;
+  transform:none;
 }
 
 .contact-form-note{
